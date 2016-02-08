@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CCF0C3AA1C68E72B00240074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0C3A91C68E72B00240074 /* AppDelegate.swift */; };
+		CCF0C3AC1C68E72B00240074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0C3AB1C68E72B00240074 /* ViewController.swift */; };
+		CCF0C3AF1C68E72B00240074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF0C3AD1C68E72B00240074 /* Main.storyboard */; };
+		CCF0C3B11C68E72B00240074 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CCF0C3B01C68E72B00240074 /* Assets.xcassets */; };
+		CCF0C3B41C68E72B00240074 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF0C3B21C68E72B00240074 /* LaunchScreen.storyboard */; };
+		CCF0C3BF1C68E72B00240074 /* MoostachTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0C3BE1C68E72B00240074 /* MoostachTests.swift */; };
+		CCF0C3CA1C68E72B00240074 /* MoostachUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0C3C91C68E72B00240074 /* MoostachUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CCF0C3BB1C68E72B00240074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF0C39E1C68E72B00240074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF0C3A51C68E72B00240074;
+			remoteInfo = Moostach;
+		};
+		CCF0C3C61C68E72B00240074 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCF0C39E1C68E72B00240074 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF0C3A51C68E72B00240074;
+			remoteInfo = Moostach;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCF0C3A61C68E72B00240074 /* Moostach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moostach.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF0C3A91C68E72B00240074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CCF0C3AB1C68E72B00240074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CCF0C3AE1C68E72B00240074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CCF0C3B01C68E72B00240074 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CCF0C3B31C68E72B00240074 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CCF0C3B51C68E72B00240074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF0C3BA1C68E72B00240074 /* MoostachTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoostachTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF0C3BE1C68E72B00240074 /* MoostachTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoostachTests.swift; sourceTree = "<group>"; };
+		CCF0C3C01C68E72B00240074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CCF0C3C51C68E72B00240074 /* MoostachUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoostachUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCF0C3C91C68E72B00240074 /* MoostachUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoostachUITests.swift; sourceTree = "<group>"; };
+		CCF0C3CB1C68E72B00240074 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCF0C3A31C68E72B00240074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0C3B71C68E72B00240074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0C3C21C68E72B00240074 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCF0C39D1C68E72B00240074 = {
+			isa = PBXGroup;
+			children = (
+				CCF0C3A81C68E72B00240074 /* Moostach */,
+				CCF0C3BD1C68E72B00240074 /* MoostachTests */,
+				CCF0C3C81C68E72B00240074 /* MoostachUITests */,
+				CCF0C3A71C68E72B00240074 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCF0C3A71C68E72B00240074 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0C3A61C68E72B00240074 /* Moostach.app */,
+				CCF0C3BA1C68E72B00240074 /* MoostachTests.xctest */,
+				CCF0C3C51C68E72B00240074 /* MoostachUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CCF0C3A81C68E72B00240074 /* Moostach */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0C3A91C68E72B00240074 /* AppDelegate.swift */,
+				CCF0C3AB1C68E72B00240074 /* ViewController.swift */,
+				CCF0C3AD1C68E72B00240074 /* Main.storyboard */,
+				CCF0C3B01C68E72B00240074 /* Assets.xcassets */,
+				CCF0C3B21C68E72B00240074 /* LaunchScreen.storyboard */,
+				CCF0C3B51C68E72B00240074 /* Info.plist */,
+			);
+			path = Moostach;
+			sourceTree = "<group>";
+		};
+		CCF0C3BD1C68E72B00240074 /* MoostachTests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0C3BE1C68E72B00240074 /* MoostachTests.swift */,
+				CCF0C3C01C68E72B00240074 /* Info.plist */,
+			);
+			path = MoostachTests;
+			sourceTree = "<group>";
+		};
+		CCF0C3C81C68E72B00240074 /* MoostachUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CCF0C3C91C68E72B00240074 /* MoostachUITests.swift */,
+				CCF0C3CB1C68E72B00240074 /* Info.plist */,
+			);
+			path = MoostachUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCF0C3A51C68E72B00240074 /* Moostach */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF0C3CE1C68E72B00240074 /* Build configuration list for PBXNativeTarget "Moostach" */;
+			buildPhases = (
+				CCF0C3A21C68E72B00240074 /* Sources */,
+				CCF0C3A31C68E72B00240074 /* Frameworks */,
+				CCF0C3A41C68E72B00240074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Moostach;
+			productName = Moostach;
+			productReference = CCF0C3A61C68E72B00240074 /* Moostach.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCF0C3B91C68E72B00240074 /* MoostachTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF0C3D11C68E72B00240074 /* Build configuration list for PBXNativeTarget "MoostachTests" */;
+			buildPhases = (
+				CCF0C3B61C68E72B00240074 /* Sources */,
+				CCF0C3B71C68E72B00240074 /* Frameworks */,
+				CCF0C3B81C68E72B00240074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF0C3BC1C68E72B00240074 /* PBXTargetDependency */,
+			);
+			name = MoostachTests;
+			productName = MoostachTests;
+			productReference = CCF0C3BA1C68E72B00240074 /* MoostachTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCF0C3C41C68E72B00240074 /* MoostachUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCF0C3D41C68E72B00240074 /* Build configuration list for PBXNativeTarget "MoostachUITests" */;
+			buildPhases = (
+				CCF0C3C11C68E72B00240074 /* Sources */,
+				CCF0C3C21C68E72B00240074 /* Frameworks */,
+				CCF0C3C31C68E72B00240074 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCF0C3C71C68E72B00240074 /* PBXTargetDependency */,
+			);
+			name = MoostachUITests;
+			productName = MoostachUITests;
+			productReference = CCF0C3C51C68E72B00240074 /* MoostachUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCF0C39E1C68E72B00240074 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Julien Gdt";
+				TargetAttributes = {
+					CCF0C3A51C68E72B00240074 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CCF0C3B91C68E72B00240074 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CCF0C3A51C68E72B00240074;
+					};
+					CCF0C3C41C68E72B00240074 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CCF0C3A51C68E72B00240074;
+					};
+				};
+			};
+			buildConfigurationList = CCF0C3A11C68E72B00240074 /* Build configuration list for PBXProject "Moostach" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCF0C39D1C68E72B00240074;
+			productRefGroup = CCF0C3A71C68E72B00240074 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCF0C3A51C68E72B00240074 /* Moostach */,
+				CCF0C3B91C68E72B00240074 /* MoostachTests */,
+				CCF0C3C41C68E72B00240074 /* MoostachUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCF0C3A41C68E72B00240074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0C3B41C68E72B00240074 /* LaunchScreen.storyboard in Resources */,
+				CCF0C3B11C68E72B00240074 /* Assets.xcassets in Resources */,
+				CCF0C3AF1C68E72B00240074 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0C3B81C68E72B00240074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0C3C31C68E72B00240074 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCF0C3A21C68E72B00240074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0C3AC1C68E72B00240074 /* ViewController.swift in Sources */,
+				CCF0C3AA1C68E72B00240074 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0C3B61C68E72B00240074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0C3BF1C68E72B00240074 /* MoostachTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCF0C3C11C68E72B00240074 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF0C3CA1C68E72B00240074 /* MoostachUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCF0C3BC1C68E72B00240074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF0C3A51C68E72B00240074 /* Moostach */;
+			targetProxy = CCF0C3BB1C68E72B00240074 /* PBXContainerItemProxy */;
+		};
+		CCF0C3C71C68E72B00240074 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCF0C3A51C68E72B00240074 /* Moostach */;
+			targetProxy = CCF0C3C61C68E72B00240074 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CCF0C3AD1C68E72B00240074 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF0C3AE1C68E72B00240074 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CCF0C3B21C68E72B00240074 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CCF0C3B31C68E72B00240074 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CCF0C3CC1C68E72B00240074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCF0C3CD1C68E72B00240074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CCF0C3CF1C68E72B00240074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moostach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jlngdt.Moostach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CCF0C3D01C68E72B00240074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Moostach/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jlngdt.Moostach;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CCF0C3D21C68E72B00240074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoostachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jlngdt.MoostachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moostach.app/Moostach";
+			};
+			name = Debug;
+		};
+		CCF0C3D31C68E72B00240074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MoostachTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jlngdt.MoostachTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Moostach.app/Moostach";
+			};
+			name = Release;
+		};
+		CCF0C3D51C68E72B00240074 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoostachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jlngdt.MoostachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Moostach;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CCF0C3D61C68E72B00240074 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = MoostachUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.jlngdt.MoostachUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Moostach;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCF0C3A11C68E72B00240074 /* Build configuration list for PBXProject "Moostach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0C3CC1C68E72B00240074 /* Debug */,
+				CCF0C3CD1C68E72B00240074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCF0C3CE1C68E72B00240074 /* Build configuration list for PBXNativeTarget "Moostach" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0C3CF1C68E72B00240074 /* Debug */,
+				CCF0C3D01C68E72B00240074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF0C3D11C68E72B00240074 /* Build configuration list for PBXNativeTarget "MoostachTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0C3D21C68E72B00240074 /* Debug */,
+				CCF0C3D31C68E72B00240074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CCF0C3D41C68E72B00240074 /* Build configuration list for PBXNativeTarget "MoostachUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCF0C3D51C68E72B00240074 /* Debug */,
+				CCF0C3D61C68E72B00240074 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCF0C39E1C68E72B00240074 /* Project object */;
+}
