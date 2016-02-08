@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5B1ABB63AF1714F05981343F /* Pods_Moostach.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB918BF199BE09C2B54BBEA9 /* Pods_Moostach.framework */; };
 		CCF0C3AA1C68E72B00240074 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0C3A91C68E72B00240074 /* AppDelegate.swift */; };
 		CCF0C3AC1C68E72B00240074 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCF0C3AB1C68E72B00240074 /* ViewController.swift */; };
 		CCF0C3AF1C68E72B00240074 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CCF0C3AD1C68E72B00240074 /* Main.storyboard */; };
@@ -34,6 +35,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		29F1D0B6EC0D65987DD06071 /* Pods-Moostach.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moostach.release.xcconfig"; path = "Pods/Target Support Files/Pods-Moostach/Pods-Moostach.release.xcconfig"; sourceTree = "<group>"; };
+		37B144D11FED078FC5C6A524 /* Pods-Moostach.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moostach.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Moostach/Pods-Moostach.debug.xcconfig"; sourceTree = "<group>"; };
+		CB918BF199BE09C2B54BBEA9 /* Pods_Moostach.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moostach.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF0C3A61C68E72B00240074 /* Moostach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moostach.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCF0C3A91C68E72B00240074 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CCF0C3AB1C68E72B00240074 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B1ABB63AF1714F05981343F /* Pods_Moostach.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		07AC1E78BE5D21593DFA9F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB918BF199BE09C2B54BBEA9 /* Pods_Moostach.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84799B324FE389D257F2DE47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				37B144D11FED078FC5C6A524 /* Pods-Moostach.debug.xcconfig */,
+				29F1D0B6EC0D65987DD06071 /* Pods-Moostach.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		CCF0C39D1C68E72B00240074 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +103,8 @@
 				CCF0C3BD1C68E72B00240074 /* MoostachTests */,
 				CCF0C3C81C68E72B00240074 /* MoostachUITests */,
 				CCF0C3A71C68E72B00240074 /* Products */,
+				84799B324FE389D257F2DE47 /* Pods */,
+				07AC1E78BE5D21593DFA9F6A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,9 +156,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CCF0C3CE1C68E72B00240074 /* Build configuration list for PBXNativeTarget "Moostach" */;
 			buildPhases = (
+				4F1956FAF49DD078E90EF71A /* Check Pods Manifest.lock */,
 				CCF0C3A21C68E72B00240074 /* Sources */,
 				CCF0C3A31C68E72B00240074 /* Frameworks */,
 				CCF0C3A41C68E72B00240074 /* Resources */,
+				67114FAA786B825C5AAB40B3 /* Embed Pods Frameworks */,
+				AAEE6D6772F6B83E47F20BCC /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -250,6 +277,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4F1956FAF49DD078E90EF71A /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67114FAA786B825C5AAB40B3 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moostach/Pods-Moostach-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AAEE6D6772F6B83E47F20BCC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Moostach/Pods-Moostach-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		CCF0C3A21C68E72B00240074 /* Sources */ = {
@@ -395,6 +470,7 @@
 		};
 		CCF0C3CF1C68E72B00240074 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B144D11FED078FC5C6A524 /* Pods-Moostach.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Moostach/Info.plist;
@@ -406,6 +482,7 @@
 		};
 		CCF0C3D01C68E72B00240074 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F1D0B6EC0D65987DD06071 /* Pods-Moostach.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Moostach/Info.plist;
@@ -482,6 +559,7 @@
 				CCF0C3D01C68E72B00240074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCF0C3D11C68E72B00240074 /* Build configuration list for PBXNativeTarget "MoostachTests" */ = {
 			isa = XCConfigurationList;
@@ -490,6 +568,7 @@
 				CCF0C3D31C68E72B00240074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCF0C3D41C68E72B00240074 /* Build configuration list for PBXNativeTarget "MoostachUITests" */ = {
 			isa = XCConfigurationList;
@@ -498,6 +577,7 @@
 				CCF0C3D61C68E72B00240074 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
